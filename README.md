@@ -1,9 +1,16 @@
 # Weather-Dashboard
 
-## Demo
+## Demo Pictures
+```
+![Weather-Dash1](https://user-images.githubusercontent.com/86095070/136269738-36699ee9-0040-46cf-a269-f3915c7b560e.png)
+
+![Weather-Dash2](https://user-images.githubusercontent.com/86095070/136269740-e766fd5e-03d9-4f10-9392-878b7e3a60cb.png)
+
+![Weather-Dash3](https://user-images.githubusercontent.com/86095070/136269742-cecd1eb4-90c3-4034-838e-1f9ac47a12a7.png)
 
 
 
+```
 ## User Story
 
 ```
@@ -29,6 +36,7 @@ THEN I am again presented with current and future conditions for that city
 
 ```
 ## Deployment
-
-Active Page:
-Github:
+```
+Active Page: https://katlyn627.github.io/Weather-Dashboard
+Github: https://github.com/Katlyn627/Weather-Dashboard
+```
