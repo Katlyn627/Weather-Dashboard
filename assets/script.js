@@ -23,8 +23,9 @@ $("#searchBtn").on("click", function() {
   $("#searchTerm").val("");  
 
   // URL call to API
-  const queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=city&appid=555a36d1f858be938ee83320ea75e621"
-  fetch({
+  const queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey;
+
+  $.ajax({
     url: queryUrl,
     method: "GET"
   })
@@ -80,9 +81,9 @@ $("#currentCity").append(card)
 }
 function getCurrentForecast () {
   
-    $.ajax({
-      url: "https://api.openweathermap.org/data/2.5/weather?q=" + city + apiKey,
-      method: "GET"
+  $.ajax({
+    url: "https://api.openweathermap.org/data/2.5/forecast?q=" + city + apiKey,
+    method: "GET"
     }).then(function (response){
   
       console.log(response)
