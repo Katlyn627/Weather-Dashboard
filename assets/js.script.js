@@ -49,3 +49,16 @@ $("#searchBtn").on("click", function() {
 
     })
   });
+//   Created make list function for weather list
+  function makeList() {
+    let listItem = $("<li>").addClass("list-group-item").text(city);
+    $(".list").append(listItem);
+  }
+// Created get current conditions function
+  function getCurrentConditions (response) {
+
+    // Get temp and convert to F
+    let tempF = (response.main.temp - 273.15) * 1.80 + 32;
+    tempF = Math.floor(tempF);
+
+    $('#currentCity').empty();
