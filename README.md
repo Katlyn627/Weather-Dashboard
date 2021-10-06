@@ -2,8 +2,9 @@
 
 ## Demo Pictures
 ```
-C:\Users\katly\Desktop\Homework\Weather-Dashboard\images\Weather-Dash1.png
-
+![Weather-Dash1](https://user-images.githubusercontent.com/86095070/136272509-5ddf4d13-31be-4284-80ce-e8dae461c6a6.png)
+![Weather-Dash2](https://user-images.githubusercontent.com/86095070/136272512-1975ffce-4ea0-447a-b188-37e6d86c243e.png)
+![Weather-Dash3](https://user-images.githubusercontent.com/86095070/136272514-4f48a38c-e880-4cdf-b0c3-c99546a37d56.png)
 
 ```
 ## User Story
