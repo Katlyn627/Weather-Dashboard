@@ -20,6 +20,31 @@
             <h1 class="text-center text-white">Weather Dashboard</h1>
         </div>
     </div>
+    <!-- Start main content container -->
+    <div class="container-fluid"> 
+        <!-- Created row class-->
+        <div class="row"> 
+            <!-- Created column class -->
+            <div class="col-lg-3 bg-light pt-3 pb-3"> 
+                <!-- Created search for city heading -->
+                <h5>Search for a city:</h5>
+                <div class="input-group mb-3"> 
+                    <input id="searchTerm" type="text" class="form-control" placeholder="City name..." class="input-group-append">
+                    <!-- Created serach button -->
+                    <button id="searchBtn" class="btn btn-primary" type="button" id="button-addon2"><i class="far fa-search"></i></button>
+                </div> 
+                <!-- Created card for list of days for 5 days of weather-->
+                <div class="card"> 
+                    <ul class="list-group list-group-flush list">
+                    </ul>
+                </div> 
+            </div> 
+            <!-- Created column for current city-->
+            <div class="col-lg-9"> 
+                <div id="currentCity" class="mt-4">
+                </div>
+            </div> 
+        </div> 
     <!-- Created scripts for jquery and javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/main.js"></script>
