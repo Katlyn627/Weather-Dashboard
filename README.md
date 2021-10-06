@@ -31,7 +31,8 @@ THEN I am again presented with current and future conditions for that city
 
 ```
 ## Deployment
-```
-Active Page: https://katlyn627.github.io/Weather-Dashboard
-Github: https://github.com/Katlyn627/Weather-Dashboard
-```
+
+[Active Page:] (https://katlyn627.github.io/Weather-Dashboard)
+[Github:] (https://github.com/Katlyn627/Weather-Dashboard)
+
+
